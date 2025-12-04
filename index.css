@@ -1,0 +1,132 @@
+/*Navigation*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   /* padding: 1vw 8vw;*/
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+nav img{
+    width: 80px;
+    cursor: pointer;
+    height: 58px;
+    padding-left: 50px;
+
+}
+
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+    padding-right: 20px;
+
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(21, 21,100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover{
+    color: #fdc93b;
+
+
+}
+
+/*Home Section*/
+
+#home{
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3),rgba(5,4,46,0.7)),url("images/home3.webp");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#home h2{
+    color: white;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+#home p{
+    width: 50%;
+    color: white;
+   /* font-size: 0.9rem;*/
+    line-height: 25px;
+}
+
+#home .btn{
+    margin-top: 30px;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 1px;
+    /*font-size: 18px;*/
+}
+
+#home a{
+    text-decoration: none;
+    font-size: 16px;
+   /* padding: 13px, 35px;*/
+    background-color: #fff;
+    font-weight: 600;
+    /*border-radius: 1px;
+    display: inline-block;
+    border: 2px;*/
+    
+}
+
+#home a.blue{
+    color: #fff;
+    background-color: rgb(21, 21,100);
+
+}
+
+#home a.blue:hover {
+    color: rgb(21, 21,100);
+    background-color: #fff;
+
+}
+
+#home a.yellow{
+    color: #fff;
+    background-color: #fdc93b;
+
+}
+
+#home a.yellow:hover {
+    color: #fdc93b;
+    background-color: #fff;
+
+}
