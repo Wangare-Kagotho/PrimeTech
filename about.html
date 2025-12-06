@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeTech</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+
+
+    <!--css link-->
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!--Navigation section-->
+    <nav>
+        <img class="logo" src="images/logo.webp" alt="Tech Logo">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+            <img id="menu-btn" src="images/menu.jpg" alt="">
+        </div>
+    </nav>
+
+<!--Home Section--> 
+    <section id="about-home">
+        <h2>About PrimeTech</h2>
+      
+
+    </section>
+
+    <section id="about-container">
+        <div class="about-image">
+            <img src="images/about6.jpg" alt="">
+            <img src="images/about7.jpg" alt="">
+            <img src="images/about8.jpg" alt="">
+        </div>
+
+        <div class="about-text">
+            <h2>Welcome to PrimeTech, Enhance your skills with best online courses.</h2>
+            <p>You can start and finish one of these popular courses in under a day-for free! Check out the list below. Take the course for free.</p>
+            <div class="about.fe">
+                <img src="images/icon1.jpg" alt="">
+                <div class="fe-text">
+                    <h5>400+ Courses</h5>
+                    <p>You can start and finish one of these popular courses in under our site.</p>
+                </div>
+            </div>
+            <div class="about.fe">
+                <img src="im" alt="">
+                <div class="fe-text">
+                    <h5>Lifetime Access</h5>
+                    <p>You can start and finish one of these popular courses in under our site.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+   <!--features section-->  
+    <section id="features">
+
+        <h1>Awesome Features</h1>
+        <p>Unlock endless opportunites with our powerful learning tools designed to help every student grow and succeed.</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Scholarship Facility</h3>
+                <p>Get access to financial aid opportunites that support your academic journey.</p>
+
+            </div>
+            
+            <div class="fea-box">
+                <i class="fas fa-file-certificate"></i>
+                <h3>Online Courses</h3>
+                <p>Learn anytime, anywhere with interactive online lessons tailored to your goals and pace.</p>
+    
+            </div>
+            
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3>Global Certificate</h3>
+                <p>Earn internationally recognised certificates that strengthen your career and open doors worldwide.</p>
+             
+            </div>          
+
+        </div>
+    </section>
+
+    <!--Trusted section-->
+    <section id="trust">
+        <h1>Trusted By</h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+    <div class="trust-img">
+        <img src="images/m1.jpg" alt="">
+        <img src="images/m2.jpg" alt="">
+        <img src="images/m3.jpg" alt="">
+        <img src="images/m6.jpg" alt="">        
+        <img src="images/m7.jpg" alt="">
+    </div>
+
+    </section>
+
+<!--Courses Section-->
+
+
+<!--Our Team Section-->
+
+
+<!--Footer Section-->
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Power Tools</li>
+            <li>Managment Website</li>
+            <li>Marketing Services</li>
+            <li>Brand Managment</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms Of Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Power Tools</li>
+            <li>Managment Website</li>
+            <li>Marketing Services</li>
+            <li>Brand Managment</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Discounts</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Stay updated with our latest courses, events and tech insights.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright 2021 All rights reserved | This template is made by Prime.</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+
+        });
+        $('menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+
+        });
+    </script>
+
+    
+</body>
+</html>
